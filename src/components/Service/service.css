@@ -1,0 +1,24 @@
+.serv{
+    text-align: center;
+}
+.titleS{
+    color: gray;
+}
+.workS{
+    color: darkslategrey;
+}
+.paraS{
+    color:black;
+    font-weight: 500;
+    font-size: larger;
+}
+.pic{
+    height: 28rem;
+    width: 28rem;
+    padding: 2rem;
+}
+@media screen and (max-width:720px) {
+    .paraS{
+        margin:0 7rem;
+    }
+}

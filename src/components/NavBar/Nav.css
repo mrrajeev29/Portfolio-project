@@ -1,0 +1,93 @@
+h1{
+    color: aqua;
+}
+
+.navbar{
+    height: 5.2rem;
+    width: 100vW;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: whitesmoke;
+}
+
+.navlogo{
+    height: 4rem;
+    width: 4rem;
+}
+
+.navLink{
+    color: gray;
+    margin: 0 1rem 0 2rem;
+    border: none;
+    text-decoration: none;
+}
+
+.navbtn{
+
+    background-color: orangered;
+    color:white;
+    width: 10rem;
+    height: 2.75rem;
+    margin: 0 1.5rem 0 0;
+    border-radius: 5rem;
+    border:none;
+}
+
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 3.5rem;
+}
+.navLink:hover{
+    color: orangered;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid orangered;
+}
+.active{
+    color:orangered;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid orangered;
+}
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background:orangered;
+    border-radius: 1rem;
+}
+
+.listItem{
+    color:orangered;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    text-decoration: none;
+    background-color: white;
+
+}
+
+
+@media screen and  (max-width:720px){
+    .mobMenu{
+        display: flex;
+    }   
+    .nav{
+        display: none;
+    }
+    .navbtn{
+        display: none;
+    }
+}
+
+

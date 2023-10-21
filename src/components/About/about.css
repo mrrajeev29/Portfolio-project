@@ -1,0 +1,59 @@
+.proImg{
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+    width: 20rem;
+    overflow: hidden;
+    margin: 0 3.5rem;
+    object-fit: cover;
+}
+
+
+.text-container{
+    text-align: left;
+    justify-content: right;
+    margin-top: -15rem ;
+    margin-left:25rem;
+    color: darkslategrey;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    font-size: larger;
+    color: black;
+}
+.domain{
+    font-size: large;
+    color:darkslategrey;
+    font-weight: 500;
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5rem;
+}
+@media screen and (max-width:720px) {
+    .proImg{
+        display:flex;
+        margin-left: 7rem;
+    }
+    .text-container{
+        display:flex;
+        margin-top:5rem;
+        text-align: left;
+        margin-left: 7rem;
+        font-size: larger;
+    }
+    .Pname{
+        font-size:xx-large;
+    }
+    .domain{
+        font-size: larger;
+    }
+}
+
+

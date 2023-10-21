@@ -1,0 +1,28 @@
+.porto{
+    color: gray;
+}
+.working{
+    color: darkslategrey;
+}
+.port{
+    text-align: center;
+}
+
+.imgP{
+    height: 28rem;
+    width: 28rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+.display{
+    color:black;
+    font-weight: 500;
+    font-size: larger;
+}
+
+@media screen and (max-width:720px) {
+    .paraS{
+        margin:0 7rem;
+    }
+}
+

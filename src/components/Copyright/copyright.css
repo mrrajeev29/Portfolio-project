@@ -1,0 +1,23 @@
+.copy{
+    text-align: center;
+    width:100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size:large;
+    color: white;
+    background-color: orangered;
+}
+.Rajeev{
+    color: black;
+}
+.Raj{
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:720px) {
+    .copy{
+        width: fit-content;
+    }
+}

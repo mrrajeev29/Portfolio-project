@@ -1,0 +1,51 @@
+.con{
+    color: gray;
+}
+.touch{
+    color: darkslategrey;
+}
+.Dcon{
+    text-align: center;
+}
+.value
+{
+    border-color: orangered;
+    width: 40rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    font-size: x-large;
+    text-align: center;
+}
+.msg{
+    width: 40rem;
+    height: 7rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    font-size: x-large;
+    text-align: center;
+    border-color: orangered;
+}
+.btnText{
+    font-size: larger;
+}
+.Dbtn{
+    width: 40rem;
+    height: 3rem;
+    background-color: orangered;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+}
+
+@media screen and (max-width:720px) {
+    .value{
+        width: 20rem;  
+    }
+    .msg{
+        width: 20rem;
+    }
+    .Dbtn{
+        width: 18rem;
+    }
+}

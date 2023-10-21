@@ -1,0 +1,85 @@
+#intro{
+    height: calc(100vh-5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 60vh;
+    width: 35vw;
+}
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top:-30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.hello{
+    color: gray;
+    font-size :1.75rem;
+    font-weight: 500;
+}
+
+
+.nameDes{
+    color: #343a40;
+    font-size: 5rem;
+    color: darkslategrey;
+    display: flex;
+}
+
+.nameMob{
+    color: #343a40;
+    font-size:3rem;
+    color :darkslategrey;
+    display: none;
+}
+.work{
+    color:darkslategrey;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.btn1{
+    width:6rem;
+    height: 3rem;
+    background-color:orangered ;
+    color: white;
+    border-radius: 5rem;
+    border: none;
+    margin: 0 2rem;
+}
+
+.btn2{
+    width:8rem;
+    height: 3rem;
+    background-color:darkslategrey;
+    color: white;
+    border-radius: 5rem;
+    border: none;
+    margin: 0 0 0 -1rem;
+}
+
+
+@media screen and (max-width:720px) {
+    .nameDes{
+        display: none;
+    }
+    .nameMob{
+        display: flex;
+    }
+    
+}
